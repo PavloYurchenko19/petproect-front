@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
 . "$(dirname "$0")/_/husky.sh"
 
-printf "🔍 Running lint-staged...\n"
-pnpm lint-staged
+pnpm test
+pnpm build
